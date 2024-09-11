@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Link in New Tab</title>
+    <script>
+        window.onload = function() {
+            window.open('github.com/neatandironicname/computerbrick', '_blank', 'noopener,noreferrer');
+        };
+    </script>
+</head>
+<body>
+    <p>The link will open in a new tab automatically when the page loads.</p>
+</body>
+</html>
